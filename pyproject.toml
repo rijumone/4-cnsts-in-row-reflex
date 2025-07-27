@@ -1,0 +1,20 @@
+[project]
+name = "four-consonants-in-a-row"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Riju [mailmeonriju@gmail.com]"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "reflex (>=0.8.3,<0.9.0)",
+    "langchain-community (>=0.3.27,<0.4.0)",
+    "pyriodic-table (>=1.0.1,<2.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
